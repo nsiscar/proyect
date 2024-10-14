@@ -1,8 +1,8 @@
 // Buscador de Proyectos
-document.getElementById('btn-buscar').addEventListener('click', function() {
+document.getElementById('btn-buscar').addEventListener('click', function () {
     const searchQuery = document.getElementById('buscar-proyectos').value.toLowerCase();
     const projects = document.querySelectorAll('.card');
-    
+
     projects.forEach((project) => {
         const title = project.querySelector('.card-title').textContent.toLowerCase();
         if (title.includes(searchQuery)) {
@@ -14,7 +14,7 @@ document.getElementById('btn-buscar').addEventListener('click', function() {
 });
 
 // Validación y modal de confirmación
-document.getElementById('form-contacto').addEventListener('submit', function(event) {
+document.getElementById('form-contacto').addEventListener('submit', function (event) {
     event.preventDefault();
     var email = document.getElementById('email').value;
     if (email.includes('@')) {
