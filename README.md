@@ -1,4 +1,4 @@
-**Proyecto Web Personal - Alejandro Ríos Torres**
+# Proyecto Web Personal - Alejandro Ríos Torres
 
 ¡Bienvenido a mi proyecto web personal! Este sitio web fue desarrollado para presentar mi perfil profesional, mis proyectos y facilitar la posibilidad de contacto a través de un formulario.
 
@@ -9,6 +9,7 @@
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Cómo Usar el Proyecto](#cómo-usar-el-proyecto)
 - [Funcionalidades](#funcionalidades)
+- [Desarrollo PHP y Base de Datos](#desarrollo-php-y-base-de-datos)
 - [Autor](#autor)
 
 ---
@@ -29,9 +30,24 @@ Este es un sitio web desarrollado con **HTML**, **CSS (Bootstrap)** y **JavaScri
 - **HTML5**
 - **CSS3** con **Bootstrap 5**
 - **JavaScript**
+- **PHP** y **MySQL** (para la gestión de proyectos)
 - **Git** (control de versiones)
-  
+
 ---
 
 ### **Estructura del Proyecto**
 
+- **index.html**: Página principal con la presentación personal.
+- **proyectos.html**: Página de proyectos, incluye tarjetas con información y un buscador dinámico.
+- **contacto.html**: Página de contacto con un formulario de validación.
+- **carpeta de imágenes**: Contiene las imágenes para cada proyecto.
+- **carpeta de PHP**: Contiene los archivos PHP para la conexión y gestión de la base de datos.
+
+---
+
+### **Cómo Usar el Proyecto**
+
+1. **Clona el repositorio** en tu equipo local:
+
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
