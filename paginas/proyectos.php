@@ -128,7 +128,7 @@
     </div>
 
     <?php
-    include 'config.php';
+    include '../config.php';
 
     $query = "SELECT * FROM proyectos";
     $resultado = $conexion->query($query);

@@ -100,7 +100,7 @@
     </section>
     
     <?php
-include 'config.php';
+include './config.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $titulo = $_POST['titulo'];
