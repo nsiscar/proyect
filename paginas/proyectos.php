@@ -127,6 +127,24 @@
         </div>
     </div>
 
+    <?php
+    include '../config.php';
+
+    $query = "SELECT * FROM proyectos";
+    $resultado = $conexion->query($query);
+
+    while ($proyecto = $resultado->fetch_assoc()) {
+        echo "<div class='card'>";
+        echo "<img src='" . $proyecto['imagen'] . "' alt='Imagen de " . $proyecto['titulo'] . "'>";
+        echo "<h5>" . $proyecto['titulo'] . "</h5>";
+        echo "<p>" . $proyecto['descripcion'] . "</p>";
+        echo "<a href='" . $proyecto['enlace'] . "' target='_blank'>Ver Proyecto</a>";
+        echo "</div>";
+    }
+
+    $conexion->close();
+    ?>
+
     <footer class="bg-light text-center text-lg-start mt-auto py-3">
         <div class="text-center p-3">
             © 2024 Alejandro Ríos Torres | Proyectos de software innovadores.
